@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>games</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="header center">
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="../index.html" class="menu__link">Главная</a></li>
+                <li><a href="#" class="menu__link menu__link_active">Контакты</a></li>
+                <li><a href="" class="menu__link">Обо мне</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container content">
+        <form class="form-login" action="">
+            <p>
+                <B>Заполните форму</B>
+            </p>
+            <input class="form-login__input" type="text" placeholder="введите ваше имя" name="username">
+            <input class="form-login__input" type="email" placeholder="введите Gmail" name="email">
+            <br>
+            <input class="form-login__input" type="password" placeholder="введите пароль" name="pasword">
+            <input class="form-login__input" type="tel" placeholder="введите ваш номер" name="tel">
+            <br>
+            <input min="0" max="100" class="form-login__input" type="number" placeholder="сколько лет ви играете">
+            <br>
+            <label for="">введите дату вашего рождения</label>
+            <input type="date" name="data">
+            <br>
+            <input type="file" name="file">
+
+            <p>
+                <B>Ваша любимая игра</B>
+                <br>
+                <label for="csgo">Cs Go</label>
+                <input type="radio" name="game" value="csgo" checked id="csgo">
+                <label for="minecraft">minecraft</label>
+                <input type="radio" name="game" value="minecraft" id="minecraft">
+                <label for="valorant">valorant</label>
+                <input type="radio" name="game" value="valorant" id="valorant">
+            </p>
+            <p>
+                <b>Ваша любимая плотформа </b>
+                <br>
+                <label for="pc">ПК</label>
+                <input type="checkbox" name="platform" value="pc" checked id="pc">
+                <label for="mobile"> мобильние </label>
+                <input type="checkbox" name="platform" value="mobile" id="mobile">
+                <label for="console">консольние</label>
+                <input type="checkbox" name="platform" value="console" id="console">
+            </p>
+            <textarea name="comment" id="" cols="25" rows="5" style="resize: none;"
+                placeholder="напишите комментарий"></textarea>
+            <br>
+            <button class="btn btn-submit" type="submit"> Oтправить</button>
+            <button class="btn btn-warning" type="reset">Очистить</button>
+
+        </form>
+        <div class="rating">
+            <table class="rating__table">
+                <caption> звание ммр </caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span class="rating__star"></span>
+                        </td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="rating__star"></span>
+                            <span class="rating__star"></span>
+                        </td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="rating__star"></span>
+                            <span class="rating__star"></span>
+                            <span class="rating__star"></span>
+                        </td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                    </tr>
+                    <tr>
+                        <td><span class="rating__star"></span>
+                            <span class="rating__star"></span>
+                            <span class="rating__star"></span>
+                            <span class="rating__star"></span>
+                        </td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                    </tr>
+                    <tr>
+                        <td><span class="rating__star"></span>
+                            <span class="rating__star"></span>
+                            <span class="rating__star"></span>
+                            <span class="rating__star"></span>
+                            <span class="rating__star"></span>
+                        </td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer class="footer center ">
+        <ol class="menu">
+            <li><a class="sotial-media sotial-media_f" href="#"></a></li>
+            <li><a class="sotial-media sotial-media_inst" href="#"></a></li>
+            <li><a class="sotial-media sotial-media_vb" href="#"></a></li>
+            <li><a class="sotial-media sotial-media_tel" href="#"></a></li>
+            <li><a class="sotial-media sotial-media_you" href="#"></a></li>
+            <li><a class="sotial-media sotial-media_vk" href="#"></a></li>
+            <li><a class="sotial-media sotial-media_twit" href="#"></a></li>
+        </ol>
+    </footer>
+</body>
+
+</html>

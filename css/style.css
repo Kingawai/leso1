@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.btn {
+
+    transition: .5s;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(209, 201, 201);
+
+}
+
+.btn:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+
+.btn-submit {
+    background: green;
+    color: rgb(221, 213, 213);
+}
+
+.btn-warning {
+    background: red;
+    color: white;
+}
+
+.container,
+.footer {
+    background-color: rgb(35, 116, 136);
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.container {
+
+    width: 95%;
+    margin: 50px auto 0;
+    max-width: 1200px;
+
+    padding: 20px;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 60px;
+    background-color: white;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+
+    display: flex;
+    gap: 30px;
+
+}
+
+.menu__link {
+    font-size: 20px;
+    color: navy;
+    transition: .5s;
+}
+
+.menu__link_active,
+.menu__link:hover {
+    color: greenyellow;
+}
+
+.article__img {
+    margin-right: 10px;
+    float: left;
+}
+
+.article__title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: rgb(92, 22, 22);
+    text-align: center;
+}
+
+.article__info {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.footer {
+    min-height: 230px;
+    background-color: rgb(51, 9, 16);
+}
+
+.sotial-media {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/sotial-media.webp");
+    border-radius: 100%;
+    border: 1px solid black;
+    background-position-y: center;
+    background-size: 400px 142.8px;
+
+}
+
+
+.sotial-media_f {
+    background-position-x: -16px;
+
+}
+
+.sotial-media_inst {
+    background-position-x: -70px;
+
+}
+
+.sotial-media_vb {
+    background-position-x: -124px;
+
+}
+
+.sotial-media_tel {
+    background-position-x: center;
+
+}
+
+.sotial-media_you {
+    background-position-x: -233px;
+
+}
+
+.sotial-media_vk {
+    background-position-x: -290px;
+
+}
+
+.sotial-media_twit {
+    background-position-x: -343px;
+
+}
+
+.form-login {
+
+    border-radius: 15px;
+    padding: 30px;
+    width: 40%;
+    background: rgb(86, 70, 192);
+}
+
+.form-login input,
+.form-login textarea {
+
+    margin-bottom: 17px;
+
+}
+
+.form-login__input {
+    width: 190px;
+    height: 35px;
+    padding: 0 15px;
+
+}
+
+.rating {
+    width: 60%;
+    background: rgb(26, 25, 25);
+    font-size: 30px;
+
+}
+
+.rating__table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.rating__table caption {
+    color: yellow;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.rating__table tbody {
+    color: rgb(255, 255, 255);
+}
+
+.rating__table tbody tr:nth-of-type(2n+1) {
+    background: rgb(83, 82, 82);
+
+}
+
+.rating__table th {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+}
+.rating__table th:nth-of-type(2) {
+    background-image: url(../img/hron1.png);
+}
+.rating__table th:nth-of-type(3) {
+    background-image: url(../img/kron2.png);  
+}
+.rating__table th:nth-of-type(4) {
+    background-image: url(../img/kropn3.png);
+}
+.rating__table th:nth-of-type(5) {
+    background-image: url(../img/kron4.png);
+}
+.rating__table th:nth-of-type(6) {
+    background-image: url(../img/kron5.png); 
+}
+.rating__table th:nth-of-type(7) {
+    background-image: url(../img/kron6.png);
+}
+.rating__table th:nth-of-type(8) {
+    background-image: url(../img/kron7.png);
+}
+.rating__table tbody td:nth-of-type(1) {
+    text-align: center;
+}
+
+.rating__table td {
+    padding: 5px 0;
+
+}
+
+.rating__star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/star.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.rating tr {
+    height: 80px;
+}
